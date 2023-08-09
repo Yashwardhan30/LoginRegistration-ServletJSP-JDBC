@@ -1,0 +1,9 @@
+
+create table userinfo (
+	id number(6) primary key,
+	fname varchar2(20) not null,
+	uname varchar2(20) not null,
+	pass varchar2(20) not null,
+	mno number(10),
+	ramt number(6)
+);
